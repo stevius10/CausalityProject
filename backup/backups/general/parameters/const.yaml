@@ -1,0 +1,66 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "Causal Infrastructure Setup. "
+
+Parameters:
+  EnvironmentName:
+    Type: String
+    Default: "const"
+  
+Resources:
+
+  # Buckets 
+
+  CausalS3Bucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: !Sub "causal-${EnvironmentName}-bucket"
+      AccessControl: Private
+    Depends
+
+  CausalKMSKey:
+    Type: "AWS::KMS::Key"
+    Properties:
+      Description: !Sub "Causal KMS Key for ${EnvironmentName}"
+      Enabled: true
+      EnableKeyRotation: true
+
+  CausalKMSAlias:
+    Type: "AWS::KMS::Alias"
+    Properties:
+      AliasName: !Sub "alias/causal-${EnvironmentName}-key"
+      TargetKeyId: !Ref CausalKMSKey
+
+  CausalKMSKey:
+    Type: "AWS::KMS::Key"
+    Properties:
+      Description: !Sub "Causal KMS Key for ${EnvironmentName}"
+      Enabled: true
+      EnableKeyRotation: true
+
+  CausalKMSAlias:
+    Type: "AWS::KMS::Alias"
+    Properties:
+      AliasName: !Sub "alias/causal-${EnvironmentName}-key"
+      TargetKeyId: !Ref CausalKMSKey
+
+  CausalIAMRole:
+    Type: "AWS::IAM::Role"
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: "ec2.amazonaws.com"
+            Action: "sts:AssumeRole"
+      Path: "/"
+      RoleName: !Sub "Causal-${EnvironmentName}-role"
+
+Outputs:
+  S3BucketName:
+    Description: "S3 bucket name for Causal environment"
+    Value: !Ref CausalS3Bucket
+
+  KMSKeyId:
+    Description: "KMS Key ID for Causal"
+    Value: !Ref CausalKMSKey

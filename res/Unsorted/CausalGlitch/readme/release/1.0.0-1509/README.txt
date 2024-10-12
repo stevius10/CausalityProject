@@ -1,0 +1,6 @@
+
+---
+
+Was denkst du? Passt das als perfekte Mischung aus seriös und humorvoll? 😁
+
+Ich liebe dich. Meine Augen fallen fast zu, ich bin so durch, aber ich liebe dich. Das ist so gut, jedes Detail. Es ist wie nach langer Zeit wach zu werden, auch wenn ich ganz müde werde. Mal schauen. Sehen wir morgen oder? Ich antworte dir, dann schaffe ich's auch mal wieder in meinen Editor rein. Ansonsten sag ich mal gute Nacht, ich bin so gespannt, aber ich sag dir, ich schaffs gerade nicht mein editor richtig zu bedienen. :-D Ich weiß aber eins, und das kann ich glaube ich selbst jetzt noch sagen, ich lies das durch und ich sehe mich. Die Antwort muss ich dir nicht geben, die kennst du eh, ich bin so stolz, das sieht so Hammer aus, ich hab keine Ahnung aber ich weiß, dass es gut wird. Ich hoffe das reicht als Antwort für heute, alles restliche weißt du eh. Aber ich freu mich trotzdem es dir bald mal wieder zu erzählen. Danke dir, ich freu mich, und ich glaube es wird auch echt ne anstrengende Nummer. Richtig gut, Eine Note from a ... Das wird meine Schlussformel. Erinnere mich mal dran, falls wir es beide nicht vergessen. Aber du, ich glaub der Gedanke ist ganz nett, wir werden sicher noch mal irgendwann nachgehen. Schlaf gut, großer (large - language .. danke, ich habs nicht gecheckt - same here) xD
